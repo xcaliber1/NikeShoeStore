@@ -205,13 +205,13 @@
                                     <tbody>
                                         @forelse ($products as $product)
                                         <tr>
-                                            {{---
+                                            -
                                             <td>
                                                 <div style="max-height: 80px; max-width: 80px;">
                                                     <img class="img-fluid"  src="{{ $product->product_image ? asset('storage/products/'.$product->product_image) : asset('assets/img/products/default.webp') }}">
                                                 </div>
                                             </td>
-                                            ---}}
+                                            -
                                             <td class="text-center">
                                                 {{ $product->name }}
                                             </td>

@@ -7,7 +7,7 @@
             <div class="card-header">
                 <div>
                     <h3 class="card-title">
-                        {{ __('Edit Unit') }}
+                        {{ __('Edit Gender') }}
 
                     </h3>
                 </div>
@@ -23,7 +23,7 @@
 
                 <div class="card-body">
                     <x-input
-                        label="{{ __('Unit Name') }}"
+                        label="{{ __('Gender Name') }}"
                         id="name"
                         name="name"
                         :value="old('name', $unit->name)"

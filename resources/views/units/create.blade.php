@@ -7,7 +7,7 @@
             <div class="card-header">
                 <div>
                     <h3 class="card-title">
-                        {{ __('Create Unit') }}
+                        {{ __('Create Gender') }}
                     </h3>
                 </div>
 

@@ -101,7 +101,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>Unit</td>
+                                            <td>Gender</td>
                                             <td>
                                                 <a href="{{ route('units.show', $product->unit) }}"
                                                     class="badge bg-blue-lt">

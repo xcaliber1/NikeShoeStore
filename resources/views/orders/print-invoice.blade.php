@@ -94,13 +94,13 @@
                                                     {{ $item->product->name }}
                                                 </td>
                                                 <td class="align-middle text-center">
-                                                    {{ Number::currency($item->unitcost, 'EUR') }}
+                                                    {{ Number::currency($item->unitcost, 'PHP') }}
                                                 </td>
                                                 <td class="align-middle text-center">
                                                     {{ $item->quantity }}
                                                 </td>
                                                 <td class="align-middle text-center">
-                                                    {{ Number::currency($item->total, 'EUR') }}
+                                                    {{ Number::currency($item->total, 'PHP') }}
                                                 </td>
                                             </tr>
                                         @endforeach
@@ -113,7 +113,7 @@
                                             </td>
                                             <td class="align-middle text-center">
                                                 <strong>
-                                                    {{ Number::currency($order->sub_total, 'EUR') }}
+                                                    {{ Number::currency($order->sub_total, 'PHP') }}
                                                 </strong>
                                             </td>
                                         </tr>
@@ -123,7 +123,7 @@
                                             </td>
                                             <td class="align-middle text-center">
                                                 <strong>
-                                                    {{ Number::currency($order->vat, 'EUR') }}
+                                                    {{ Number::currency($order->vat, 'PHP') }}
                                                 </strong>
                                             </td>
                                         </tr>
@@ -133,7 +133,7 @@
                                             </td>
                                             <td class="align-middle text-center">
                                                 <strong>
-                                                    {{ Number::currency($order->total, 'EUR') }}
+                                                    {{ Number::currency($order->total, 'PHP') }}
                                                 </strong>
                                             </td>
                                         </tr>
@@ -141,13 +141,13 @@
                                 </table>
                             </div>
                         </div>
-                        {{-- <div class="invoice-informeshon-footer">
+                        <div class="invoice-informeshon-footer">
                                 <ul>
-                                    <li><a href="#">www.website.com</a></li>
-                                    <li><a href="mailto:sales@hotelempire.com">info@example.com</a></li>
+                                    <li><a href="#">www.nike.com</a></li>
+                                    <li><a href="mailto:nike@example.com">info@example.com</a></li>
                                     <li><a href="tel:+088-01737-133959">+62 123 123 123</a></li>
                                 </ul>
-                            </div> --}}
+                            </div>
                     </div>
                     <div class="invoice-btn-section clearfix d-print-none">
                         <a href="javascript:window.print()" class="btn btn-lg btn-print">

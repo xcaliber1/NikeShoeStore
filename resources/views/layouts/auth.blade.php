@@ -48,14 +48,14 @@
         </style>
         @stack('page-styles')
     </head>
-    <body class="d-flex flex-column">
+    <body class="d-flex flex-column ">
         <script src="{{ asset('dist/js/demo-theme.min.js') }}"></script>
 
         <div class="page page-center">
-            <div class="container container-tight py-4">
+            <div class="container container-tight py-3  mt-7">
                 <div class="text-center mb-4">
                     <a href="{{ url('/') }}" class="navbar-brand navbar-brand-autodark">
-                        <img src="{{ asset('static/logo.svg') }}" width="110" height="32" alt="Tabler" class="navbar-brand-image">
+                        <img src="{{ asset('static/logo.gif') }}" width="250" height="150" style="border-radius: 15%" alt="logo" >
                     </a>
                 </div>
 

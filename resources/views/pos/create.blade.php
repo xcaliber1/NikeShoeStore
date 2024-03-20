@@ -30,7 +30,7 @@
                                     </div>
                                     <div class="col-lg-6 col-sm-6">
                                         <div class="invoice">
-                                            {{-- <h1>Invoice # <span>123456</span></h1> --}}
+                                            <h1>Invoice # <span>123456</span></h1>
                                         </div>
                                     </div>
                                 </div>

@@ -109,14 +109,14 @@
                                         <div class="col-sm-6 col-md-6">
                                             <div class="mb-3">
                                                 <label class="form-label" for="unit_id">
-                                                    {{ __('Unit') }}
+                                                    {{ __('Gender') }}
                                                     <span class="text-danger">*</span>
                                                 </label>
 
                                                 <select name="unit_id" id="unit_id"
                                                     class="form-select @error('unit_id') is-invalid @enderror">
                                                     <option selected="" disabled="">
-                                                        Select a unit:
+                                                        Select a gender:
                                                     </option>
 
                                                     @foreach ($units as $unit)

@@ -3,7 +3,7 @@
         <div class="card-header">
             <div>
                 <h3 class="card-title">
-                    Unit: {{ $unit->name }}
+                    Gender: {{ $unit->name }}
                 </h3>
             </div>
 

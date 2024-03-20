@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Inventory</title>
+    <title>NikeShoeStore</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
 
@@ -27,7 +27,7 @@
                         <div class="row">
                             <div class="col-lg-6 col-sm-6">
                                 <div class="logo">
-                                    <h1>Name Store</h1>
+                                    <h1>NikeShoeStore</h1>
                                 </div>
                             </div>
                             <div class="col-lg-6 col-sm-6">
@@ -109,8 +109,8 @@
                     </div>
                     {{-- <div class="invoice-informeshon-footer">
                         <ul>
-                            <li><a href="#">www.website.com</a></li>
-                            <li><a href="mailto:sales@hotelempire.com">info@example.com</a></li>
+                            <li><a href="#">www.nike.com</a></li>
+                            <li><a href="mailto:nike@example.com">info@example.com</a></li>
                             <li><a href="tel:+088-01737-133959">+62 123 123 123</a></li>
                         </ul> --}}
                     {{--                    </div>--}}
